@@ -63,6 +63,5 @@ p <- ggplot(playList, aes(x=x)) +
 p
 #Xac suat xuat hien bai 6 phut tro len
 a <- table(playList)
-a[6]
 xs = (a[6]+a[7]+a[8]+a[9]+a[10])/(30*30)
 xs
